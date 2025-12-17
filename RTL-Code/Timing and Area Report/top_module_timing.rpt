@@ -1,0 +1,130 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : top_module
+Version: T-2022.03-SP5
+Date   : Sat Dec  6 20:08:49 2025
+****************************************
+
+Operating Conditions: tsl18fs120_scl_ff   Library: tsl18fs120_scl_ff
+Wire Load Model Mode: top
+
+  Startpoint: hb_inst/samp_even_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: hb_inst/b0_acc_reg[3][63]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  top_module         8000000               tsl18fs120_scl_ff
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  hb_inst/samp_even_reg[0]/CP (dfcrq1)                    0.00       0.00 r
+  hb_inst/samp_even_reg[0]/Q (dfcrq1)                     0.20       0.20 f
+  hb_inst/U42/ZN (inv0d0)                                 0.55       0.75 r
+  hb_inst/U46/ZN (inv0d1)                                 0.43       1.19 f
+  hb_inst/r166/A[0] (Halfband_32_32_14_578255_DW02_mult_3)
+                                                          0.00       1.19 f
+  hb_inst/r166/U51/Z (an02d1)                             0.19       1.38 f
+  hb_inst/r166/S2_2_3/CO (ad01d0)                         0.22       1.60 f
+  hb_inst/r166/S2_3_3/CO (ad01d0)                         0.23       1.83 f
+  hb_inst/r166/S2_4_3/CO (ad01d0)                         0.23       2.07 f
+  hb_inst/r166/S2_5_3/CO (ad01d0)                         0.23       2.30 f
+  hb_inst/r166/S2_6_3/CO (ad01d0)                         0.23       2.53 f
+  hb_inst/r166/S2_7_3/CO (ad01d0)                         0.23       2.76 f
+  hb_inst/r166/S2_8_3/CO (ad01d0)                         0.23       2.99 f
+  hb_inst/r166/S2_9_3/CO (ad01d0)                         0.23       3.22 f
+  hb_inst/r166/S2_10_3/CO (ad01d0)                        0.23       3.46 f
+  hb_inst/r166/S2_11_3/CO (ad01d0)                        0.23       3.69 f
+  hb_inst/r166/S2_12_3/CO (ad01d0)                        0.23       3.92 f
+  hb_inst/r166/S2_13_3/CO (ad01d0)                        0.23       4.15 f
+  hb_inst/r166/S2_14_3/CO (ad01d0)                        0.23       4.38 f
+  hb_inst/r166/S2_15_3/CO (ad01d0)                        0.23       4.61 f
+  hb_inst/r166/S2_16_3/CO (ad01d0)                        0.23       4.85 f
+  hb_inst/r166/S2_17_3/CO (ad01d0)                        0.23       5.08 f
+  hb_inst/r166/S2_18_3/CO (ad01d0)                        0.23       5.31 f
+  hb_inst/r166/S2_19_3/CO (ad01d0)                        0.23       5.54 f
+  hb_inst/r166/S2_20_3/CO (ad01d0)                        0.23       5.77 f
+  hb_inst/r166/S2_21_3/CO (ad01d0)                        0.23       6.00 f
+  hb_inst/r166/S2_22_3/CO (ad01d0)                        0.23       6.23 f
+  hb_inst/r166/S2_23_3/CO (ad01d0)                        0.23       6.47 f
+  hb_inst/r166/S2_24_3/CO (ad01d0)                        0.23       6.70 f
+  hb_inst/r166/S2_25_3/CO (ad01d0)                        0.23       6.93 f
+  hb_inst/r166/S2_26_3/CO (ad01d0)                        0.23       7.16 f
+  hb_inst/r166/S2_27_3/CO (ad01d0)                        0.23       7.39 f
+  hb_inst/r166/S2_28_3/CO (ad01d0)                        0.23       7.62 f
+  hb_inst/r166/S2_29_3/S (ad01d0)                         0.27       7.89 r
+  hb_inst/r166/U64/Z (xr02d1)                             0.18       8.07 f
+  hb_inst/r166/U38/Z (xr02d1)                             0.14       8.21 f
+  hb_inst/r166/FS_1/A[30] (Halfband_32_32_14_578255_DW01_add_17)
+                                                          0.00       8.21 f
+  hb_inst/r166/FS_1/U49/ZN (nr02d0)                       0.16       8.37 r
+  hb_inst/r166/FS_1/U5/ZN (inv0d0)                        0.09       8.46 f
+  hb_inst/r166/FS_1/U43/ZN (aoi21d1)                      0.17       8.63 r
+  hb_inst/r166/FS_1/U41/ZN (oai21d1)                      0.09       8.72 f
+  hb_inst/r166/FS_1/U33/ZN (aoi21d1)                      0.18       8.90 r
+  hb_inst/r166/FS_1/U31/ZN (oai21d1)                      0.09       8.98 f
+  hb_inst/r166/FS_1/U23/ZN (aoi21d1)                      0.18       9.16 r
+  hb_inst/r166/FS_1/U21/ZN (oai21d1)                      0.11       9.27 f
+  hb_inst/r166/FS_1/U18/ZN (oan211d1)                     0.34       9.60 r
+  hb_inst/r166/FS_1/U16/ZN (oaim21d1)                     0.10       9.70 r
+  hb_inst/r166/FS_1/U15/ZN (oai21d1)                      0.06       9.76 f
+  hb_inst/r166/FS_1/U2/ZN (xn02da)                        0.65      10.41 f
+  hb_inst/r166/FS_1/SUM[38] (Halfband_32_32_14_578255_DW01_add_17)
+                                                          0.00      10.41 f
+  hb_inst/r166/PRODUCT[40] (Halfband_32_32_14_578255_DW02_mult_3)
+                                                          0.00      10.41 f
+  hb_inst/add_73_2_I3/A[40] (Halfband_32_32_14_578255_DW01_add_10)
+                                                          0.00      10.41 f
+  hb_inst/add_73_2_I3/U1_40/CO (ad01d0)                   0.38      10.79 f
+  hb_inst/add_73_2_I3/U1_41/CO (ad01d0)                   0.20      10.99 f
+  hb_inst/add_73_2_I3/U1_42/CO (ad01d0)                   0.20      11.19 f
+  hb_inst/add_73_2_I3/U1_43/CO (ad01d0)                   0.20      11.39 f
+  hb_inst/add_73_2_I3/U1_44/CO (ad01d0)                   0.20      11.59 f
+  hb_inst/add_73_2_I3/U1_45/CO (ad01d0)                   0.20      11.79 f
+  hb_inst/add_73_2_I3/U1_46/CO (ad01d0)                   0.20      11.99 f
+  hb_inst/add_73_2_I3/U1_47/CO (ad01d0)                   0.20      12.18 f
+  hb_inst/add_73_2_I3/U1_48/CO (ad01d0)                   0.20      12.38 f
+  hb_inst/add_73_2_I3/U1_49/CO (ad01d0)                   0.20      12.58 f
+  hb_inst/add_73_2_I3/U1_50/CO (ad01d0)                   0.20      12.78 f
+  hb_inst/add_73_2_I3/U1_51/CO (ad01d0)                   0.20      12.98 f
+  hb_inst/add_73_2_I3/U1_52/CO (ad01d0)                   0.20      13.18 f
+  hb_inst/add_73_2_I3/U1_53/CO (ad01d0)                   0.20      13.38 f
+  hb_inst/add_73_2_I3/U1_54/CO (ad01d0)                   0.20      13.58 f
+  hb_inst/add_73_2_I3/U1_55/CO (ad01d0)                   0.20      13.78 f
+  hb_inst/add_73_2_I3/U1_56/CO (ad01d0)                   0.20      13.97 f
+  hb_inst/add_73_2_I3/U1_57/CO (ad01d0)                   0.20      14.17 f
+  hb_inst/add_73_2_I3/U1_58/CO (ad01d0)                   0.20      14.37 f
+  hb_inst/add_73_2_I3/U1_59/CO (ad01d0)                   0.20      14.57 f
+  hb_inst/add_73_2_I3/U1_60/CO (ad01d0)                   0.20      14.77 f
+  hb_inst/add_73_2_I3/U1_61/CO (ad01d0)                   0.20      14.97 f
+  hb_inst/add_73_2_I3/U1_62/CO (ad01d0)                   0.20      15.17 f
+  hb_inst/add_73_2_I3/U1_63/S (ad01d0)                    0.22      15.39 r
+  hb_inst/add_73_2_I3/SUM[63] (Halfband_32_32_14_578255_DW01_add_10)
+                                                          0.00      15.39 r
+  hb_inst/U1254/Z (mx02d1)                                0.08      15.47 r
+  hb_inst/b0_acc_reg[3][63]/D (dfcrq1)                    0.00      15.47 r
+  data arrival time                                                 15.47
+
+  clock clk (rise edge)                                  10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  clock uncertainty                                      -0.01       9.99
+  hb_inst/b0_acc_reg[3][63]/CP (dfcrq1)                   0.00       9.99 r
+  library setup time                                     -0.05       9.94
+  data required time                                                 9.94
+  --------------------------------------------------------------------------
+  data required time                                                 9.94
+  data arrival time                                                -15.47
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -5.53
+
+
+1
