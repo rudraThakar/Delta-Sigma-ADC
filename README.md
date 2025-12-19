@@ -14,7 +14,7 @@ This repository contains the complete design flow of a **Sigma-Delta Analog-to-D
 - **Digital Decimation Factor**: 64  
 - **Implementation Focus**: Algorithm-to-RTL flow with hardware-efficient digital filters
 
-![Alt text](relative/path/to/image)
+![Alt text](Assets/4th_CRFF.png)
 
 The design was iteratively developed by exploring multiple Sigma-Delta architectures before converging on a final, optimized solution.
 
@@ -48,6 +48,8 @@ This directory contains all **system-level models** developed during the explora
 ## 2. RTL Code
 
 This directory contains the **SystemVerilog RTL implementation** of the digital back-end of the ADC.
+
+![Alt text](Assets/filter_chain.jpg)
 
 ### Implemented Digital Filter Chain
 1. **5th-order CIC Decimator**
