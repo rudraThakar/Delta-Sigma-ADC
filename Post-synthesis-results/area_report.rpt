@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : top_module
+Version: T-2022.03-SP5
+Date   : Fri Dec  5 22:58:30 2025
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+ 
+Number of ports:                       104891
+Number of nets:                        276645
+Number of cells:                       147397
+Number of combinational cells:         108946
+Number of sequential cells:             36446
+Number of macros/black boxes:               0
+Number of buf/inv:                      21770
+Number of references:                      11
+
+Combinational area:            3559551.792700
+Buf/Inv area:                   242004.129256
+Noncombinational area:         2181954.734688
+Macro/Black Box area:                0.000000
+Net Interconnect area:          163536.503014
+
+Total cell area:               5741506.527388
+Total area:                    5905043.030401
+1
